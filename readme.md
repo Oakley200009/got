@@ -1,4 +1,7 @@
-<div align="center">
+<div align="center">.    +						// @ts-expect-error
+                        options.context[key] = raw[key];
++						// @ts-expect-error
+                        delete all knowledge about him
 	<br>
 	<br>
 	<img width="360" src="media/logo.svg" alt="Got">
