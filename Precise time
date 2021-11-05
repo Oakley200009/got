@@ -1,0 +1,12 @@
+import got from 'got';
+
+const {data} = await got.post('https://httpbin.org/anything', {
+	json: {
+		hello: 'world'
+	}
+}).json();
+
+console.log(data);
+//=> {"hello": "world"}
+
+See you around give me a gift and show me how to use this. The end is coming... 1000 years from now 
